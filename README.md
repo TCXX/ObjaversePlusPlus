@@ -1,2 +1,75 @@
-# ObjaversePlusPlus
-Dataset page for Objaverse++, Curated 3D Object Dataset with Quality Annotations
+# Objaverse++: Curated 3D Object Dataset with Quality Annotations
+
+Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
+
+![Examples of different quality scores assigned to 3D models](figures/quality_examples.png)
+
+Less is more. We proved that, with only the high-quality objects in a 3D dataset, you can perform generative AI tasks like text-to-3D and image-to-3D better and faster.
+
+## Overview
+
+To address the prevalence of low-quality models in Objaverse, we:
+1. Manually annotated 10,000 3D objects with quality and characteristic attributes;
+2. Trained a neural network capable of annotating tags for the rest of the Objaverse dataset;
+3. Created a curated subset of approximately 500,000 high-quality 3D models.
+
+Our experiments show that:
+- Models trained on our quality-focused subset achieve better performance than those trained on the larger Objaverse dataset in image-to-3D generation tasks;
+- Higher data quality leads to faster training loss convergence;
+- Careful curation and rich annotation can compensate for raw dataset size.
+
+![Experiment benchmarks](figures/benchmarks.png)
+
+## Quality and Attribute Annotations
+
+### Quality Score
+We define quality score as a metric to assess how useful a 3D object is for machine learning training:
+
+- **Low Quality**: No semantic meaning. Objects that annotators cannot identify or are corrupted.
+- **Medium Quality**: Identifiable objects missing basic material texture and color information.
+- **High Quality**: Acceptable quality with clear object identity, properly textured with material and color details.
+- **Superior Quality**: Excellent quality with high semantic clarity and professional texturing with strong aesthetic harmony.
+
+### Binary Traits
+In addition to quality scores, we annotate several binary tags:
+
+- **Transparency**: Identifies models with see-through parts.
+- **Scene**: Identifies whether the model represents a scenario/environment rather than a standalone object.
+- **Single Color**: Tags models that are unintentionally monochromatic.
+- **Not a Single Object**: Marks models consisting of multiple separate components.
+- **Figure**: Indicates if the model represents a character, person, or figure.
+
+![Distribution of the traits](figures/trait-dist.png)
+
+## Dataset Evaluation
+
+We set up an image-to-3D generation task to evaluate our dataset using OpenLRM. We compared:
+- A randomly sampled subset of 100,000 objects from Objaverse (Training Set A)
+- A quality-filtered dataset of ~50,000 high-quality objects (Training Set B)
+
+Our key findings:
+1. **Better Generation Quality**: User study shows significant preference for models trained on our curated dataset.
+2. **Faster Convergence**: Our model demonstrates faster convergence on a carefully curated dataset.
+
+![Ten generated object comparison](figures/comparison.png)
+
+## Usage
+
+You can view and download the dataset here: [Hugging Face link](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus).
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```
+@article{objaverse++,
+  title={Objaverse++: Curated 3D Object Dataset with Quality Annotations},
+  author={[Anonymous CVPR submission]},
+  journal={CVPR},
+  year={2025}
+}
+```
+
+## Acknowledgments
+
+We gratefully acknowledge Exascale Labs and Zillion Network for providing the computational resources and supporting our training infrastructure that made this research possible. We thank Abaka AI for their valuable assistance with data labeling. Special thanks to Ang Cao and Liam Fang for their technical and artistic insights that significantly enhanced our understanding of 3D model quality assessment. 
