@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Chendi"
-  given-names: "Lin"
+- family-names: "Lin"
+  given-names: "Chendi"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Hehsan"
-  given-names: "Liu"
+- family-names: "Liu"
+  given-names: "Heshan"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Cindy"
-  given-names: "Le"
+- family-names: "Le"
+  given-names: "Cindy"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "ObjaversePlusPlus"
 version: 1.0.0
