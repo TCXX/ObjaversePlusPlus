@@ -7,7 +7,7 @@ This annotation work is intended to annotate the 3D models from Objaverse. To an
 
 3. Prepare `metadata/model_metadata.csv` for the annotation network. If the 3D models are from Objavese, you can use `download_metadata.py` to generate the csv file. Otherwise, prepare the metadata following the example of `metadata/model_metadata.csv`, and make all fields (vertexCount,faceCount,viewCount,likeCount) 0. 
 
-4. Run `bash batch_render_small_size.sh` to generate the screenshots of all the models in `objaverse/models`. The screenshots will be saved in "$pwd$/views".
+4. Run `bash batch_render_small_size.sh` to generate the screenshots of all the models in `objaverse/models`. The screenshots will be saved in `$pwd$/views`.
 
 5. Run `python3 transform_annotation_data.py` to generate the lmdb used by the annotation network.
 
