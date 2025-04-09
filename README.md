@@ -1,8 +1,9 @@
 # Objaverse++: Curated 3D Object Dataset with Quality Annotations
 
 Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
-
-![Examples of different quality scores assigned to 3D models](https://github.com/user-attachments/assets/6630b6c2-4af0-4d9d-b12b-ae29296a5d6c)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6630b6c2-4af0-4d9d-b12b-ae29296a5d6c" width="700">
+</p>
 
 Less is more. We proved that, with only the high-quality objects in a 3D dataset, you can perform generative AI tasks like text-to-3D and image-to-3D better and faster.
 
@@ -18,10 +19,14 @@ Our experiments show that:
 - Higher data quality leads to faster training loss convergence;
 - Careful curation and rich annotation can compensate for raw dataset size.
 
-![Experiment benchmarks chamfer_distance](https://github.com/user-attachments/assets/035acd0b-c9b3-4c03-b030-ac84aa570eef)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/035acd0b-c9b3-4c03-b030-ac84aa570eef" width="700">
+  </p>
 
 
-![Experiment benchmarks user_study](https://github.com/user-attachments/assets/837728c7-4e67-43d3-9b2b-19ecd8a88789)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/837728c7-4e67-43d3-9b2b-19ecd8a88789" width="700">
+</p>
 
 ## Quality and Attribute Annotations
 
@@ -42,7 +47,9 @@ In addition to quality scores, we annotate several binary tags:
 - **Not a Single Object**: Marks models consisting of multiple separate components.
 - **Figure**: Indicates if the model represents a character, person, or figure.
 
-![Distribution of the traits](https://github.com/user-attachments/assets/3790a57b-10cc-4bee-aa71-9e809953ebde)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3790a57b-10cc-4bee-aa71-9e809953ebde" width="700">
+</p>
 
 
 ## Dataset Evaluation
@@ -55,7 +62,9 @@ Our key findings:
 1. **Better Generation Quality**: User study shows significant preference for models trained on our curated dataset.
 2. **Faster Convergence**: Our model demonstrates faster convergence on a carefully curated dataset.
 
-![10 generated object comparison](https://github.com/user-attachments/assets/a91dbc90-a9da-4d3d-8f3a-e1a884ea7555)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a91dbc90-a9da-4d3d-8f3a-e1a884ea7555" width="500">
+</p>
 
 
 ## Usage
