@@ -1,0 +1,13 @@
+boto3==1.35.29
+bpy==4.2.0
+lmdb==1.5.1
+mathutils==3.3.0
+matplotlib==3.9.2
+numpy==2.1.1
+objaverse==0.1.7
+pandas==2.2.3
+Pillow==10.4.0
+scikit_learn==1.5.2
+torch==2.4.1
+torchvision==0.19.1
+tqdm==4.66.4
