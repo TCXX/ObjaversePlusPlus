@@ -76,11 +76,14 @@ You can view and download the dataset here: [Hugging Face link](https://huggingf
 If you find this work useful for your research, please cite our paper:
 
 ```
-@article{objaverse++,
-  title={Objaverse++: Curated 3D Object Dataset with Quality Annotations},
-  author={[Anonymous CVPR submission]},
-  journal={CVPR},
-  year={2025}
+@misc{lin2025objaversecurated3dobject,
+      title={Objaverse++: Curated 3D Object Dataset with Quality Annotations}, 
+      author={Chendi Lin and Heshan Liu and Qunshu Lin and Zachary Bright and Shitao Tang and Yihui He and Minghao Liu and Ling Zhu and Cindy Le},
+      year={2025},
+      eprint={2504.07334},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.07334}, 
 }
 ```
 
