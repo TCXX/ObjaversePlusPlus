@@ -4,6 +4,16 @@
 [![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label)](https://github.com/TCXX/ObjaversePlusPlus)
 [![Huggingface](https://badgen.net/badge/icon/Dataset&nbsp;\&&nbsp;Checkpoints?label&color=cyan)](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus)
 
+[Chendi Lin](https://chendilin.com/), 
+[Heshan Liu](), 
+[Qunshu Lin](), 
+[Zachary Bright](),
+[Shitao Tang](),
+[Yihui He](),
+[Minghao Liu](),
+[Ling Zhu](),
+[Cindy Le]()
+
 Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6630b6c2-4af0-4d9d-b12b-ae29296a5d6c" width="700">
