@@ -7,6 +7,11 @@ Objaverse++ is a dataset that labels 3D modeling objects in terms of quality sco
 
 Less is more. We proved that, with only the high-quality objects in a 3D dataset, you can perform generative AI tasks like text-to-3D and image-to-3D better and faster.
 
+[![Paper](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red)]([https://arxiv.org/abs/2406.13640](https://arxiv.org/abs/2504.07334v1))
+[![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label)]([https://github.com/alanzjl/t3](https://github.com/TCXX/ObjaversePlusPlus))
+[![Huggingface](https://badgen.net/badge/icon/Dataset&nbsp;\&&nbsp;Checkpoints?label&color=cyan)](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus)
+
+
 ## Overview
 
 To address the prevalence of low-quality models in Objaverse, we:
