@@ -1,6 +1,6 @@
 # Objaverse++: Curated 3D Object Dataset with Quality Annotations
 
-[![Paper](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red)](https://arxiv.org/abs/2504.07334v1))
+[![Paper](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red)](https://arxiv.org/abs/2504.07334v1)
 [![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label)](https://github.com/TCXX/ObjaversePlusPlus)
 [![Huggingface](https://badgen.net/badge/icon/Dataset&nbsp;\&&nbsp;Checkpoints?label&color=cyan)](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus)
 
