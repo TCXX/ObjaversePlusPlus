@@ -1,7 +1,7 @@
 # Objaverse++: Curated 3D Object Dataset with Quality Annotations
 
-[![Paper](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red)]([https://arxiv.org/abs/2406.13640](https://arxiv.org/abs/2504.07334v1))
-[![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label)]([https://github.com/alanzjl/t3](https://github.com/TCXX/ObjaversePlusPlus))
+[![Paper](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red)](https://arxiv.org/abs/2504.07334v1))
+[![Repo](https://badgen.net/badge/icon/GitHub?icon=github&label)](https://github.com/TCXX/ObjaversePlusPlus)
 [![Huggingface](https://badgen.net/badge/icon/Dataset&nbsp;\&&nbsp;Checkpoints?label&color=cyan)](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus)
 
 Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
