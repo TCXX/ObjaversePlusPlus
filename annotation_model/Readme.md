@@ -1,7 +1,7 @@
 # Use the Annotation Network to annotate the 3D models
 This annotation work is intended to annotate the 3D models from Objaverse. To annotate other 3D models, some modifications are needed.
 
-1. Download the models to the folder "$pwd$/objaverse_models/". You can use `download_objaverse.py` to download all the glb's from Objaverse along with the metadata.
+1. Download the models to the folder `$pwd$/objaverse_models/`. You can use `download_objaverse.py` to download all the glb's from Objaverse along with the metadata.
 
 2. Prepare a `to_render.txt`, which includes all the uids/filenames of the models to be annotated.
 
