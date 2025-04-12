@@ -16,9 +16,8 @@
 
 Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
 <p align="center">
-<img src="ttps://github.com/user-attachments/files/19720691/rubric.pdff" width="700">
+<img src="https://github.com/user-attachments/assets/cc886ae2-1a06-42d2-8db7-93d6353d2ff0" width="700">
 </p>
-<!-- [rubric.pdf](https://github.com/user-attachments/files/19720691/rubric.pdf) -->
 
 Less is more. We proved that, with only the high-quality objects in a 3D dataset, you can perform generative AI tasks like text-to-3D and image-to-3D better and faster.
 
