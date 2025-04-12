@@ -36,7 +36,7 @@ Our experiments show that:
 - Careful curation and rich annotation can compensate for raw dataset size.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/035acd0b-c9b3-4c03-b030-ac84aa570eef" width="700">
+<img src="(https://github.com/user-attachments/files/19720674/rubric.pdf" width="700">
   </p>
 
 
