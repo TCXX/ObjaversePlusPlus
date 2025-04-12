@@ -1,11 +1,11 @@
 # Use the Annotation Network to annotate the 3D models
-This annotation work is intended to annotate the 3D models from Objaverse. To annotate other 3D models, some modifications are needed.
+This annotation work is intended to annotate the 3D models from Objaverse. Some modifications are needed to annotate other 3D models.
 
 1. Download the models to the folder `$pwd$/objaverse_models/`. You can use `download_objaverse.py` to download all the glb's from Objaverse along with the metadata.
 
 2. Prepare a `to_render.txt`, which includes all the uids/filenames of the models to be annotated.
 
-3. Prepare `metadata/model_metadata.csv` for the annotation network. If the 3D models are from Objavese, you can use `download_metadata.py` to generate the csv file. Otherwise, prepare the metadata following the example of `metadata/model_metadata.csv`, and make all fields (vertexCount,faceCount,viewCount,likeCount) 0. 
+3. Prepare `metadata/model_metadata.csv` for the annotation network. If the 3D models are from Objaverse, you can use `download_metadata.py` to generate the csv file. Otherwise, prepare the metadata following the example of `metadata/model_metadata.csv`, and make all fields (vertexCount,faceCount,viewCount,likeCount) 0. 
 
 4. Run `bash batch_render_small_size.sh` to generate the screenshots of all the models in `objaverse/models`. The screenshots will be saved in `$pwd$/views`.
 
