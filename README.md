@@ -5,14 +5,14 @@
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/cindyxl/ObjaversePlusPlus)
 
 [Chendi Lin](https://chendilin.com/), 
-[Heshan Liu](), 
-[Qunshu Lin](), 
-[Zachary Bright](),
-[Shitao Tang](),
-[Yihui He](),
-[Minghao Liu](),
-[Ling Zhu](),
-[Cindy Le]()
+[Heshan Liu](https://www.linkedin.com/in/heshan-liu/), 
+Qunshu Lin, 
+Zachary Bright,
+[Shitao Tang](https://scholar.google.com/citations?user=JKVeJSwAAAAJ&hl=en),
+[Yihui He](https://scholar.google.com/citations?user=2yAMJ1YAAAAJ&hl=en),
+Minghao Liu,
+Ling Zhu,
+[Cindy Le](https://scholar.google.com/citations?hl=en&user=Y5aF5QgAAAAJ)
 
 Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
 <p align="center">
