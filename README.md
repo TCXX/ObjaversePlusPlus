@@ -106,3 +106,7 @@ If you find this work useful for your research, please cite our paper:
 ## Acknowledgments
 
 We gratefully acknowledge Exascale Labs and Zillion Network for providing the computational resources and supporting our training infrastructure that made this research possible. We thank Abaka AI for their valuable assistance with data labeling. Special thanks to Ang Cao and Liam Fang for their technical and artistic insights that significantly enhanced our understanding of 3D model quality assessment. 
+
+## License
+
+This dataset is licensed under the [Open Data Commons Attribution License (ODC-By) v1.0](http://opendatacommons.org/licenses/by/1.0/).
