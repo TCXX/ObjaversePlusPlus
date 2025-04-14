@@ -6,7 +6,7 @@
 
 [Chendi Lin](https://chendilin.com/), 
 [Heshan Liu](https://www.linkedin.com/in/heshan-liu/), 
-Qunshu Lin, 
+[Qunshu Lin](https://www.linkedin.com/in/jack-d-lin/), 
 Zachary Bright,
 [Shitao Tang](https://scholar.google.com/citations?user=JKVeJSwAAAAJ&hl=en),
 [Yihui He](https://scholar.google.com/citations?user=2yAMJ1YAAAAJ&hl=en),
