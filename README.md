@@ -105,7 +105,7 @@ If you find this work useful for your research, please cite our paper:
 
 ## Acknowledgments
 
-We gratefully acknowledge Exascale Labs and Zillion Network for providing the computational resources and supporting our training infrastructure that made this research possible. We thank Abaka AI for their valuable assistance with data labeling. Special thanks to Ang Cao and Liam Fang for their technical and artistic insights that significantly enhanced our understanding of 3D model quality assessment. 
+We gratefully acknowledge [Exascale Labs](https://www.exascalelabs.ai/) and [Zillion Network](https://zillion.network/) for providing the computational resources and supporting our training infrastructure that made this research possible. We thank Abaka AI for their valuable assistance with data labeling. Special thanks to Ang Cao and Liam Fang for their technical and artistic insights that significantly enhanced our understanding of 3D model quality assessment. 
 
 ## License
 
