@@ -14,7 +14,7 @@ Minghao Liu,
 Ling Zhu,
 [Cindy Le](https://scholar.google.com/citations?hl=en&user=Y5aF5QgAAAAJ)
 
-Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
+Objaverse++ is a dataset that labels 3D modeling objects in terms of quality score and other important traits for machine learning researchers. We meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire [Objaverse](https://huggingface.co/datasets/allenai/objaverse). Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/cc886ae2-1a06-42d2-8db7-93d6353d2ff0" width="700">
 </p>
@@ -54,8 +54,12 @@ We define quality score as a metric to assess how useful a 3D object is for mach
 - **High Quality**: Acceptable quality with clear object identity, properly textured with material and color details.
 - **Superior Quality**: Excellent quality with high semantic clarity and professional texturing with strong aesthetic harmony.
 
+### Art Style and Density
+
+- **Art style**: Scanned, realistic (but still handcrafted by artists), anime, cartoon, sci-fi, arcade, single color, other.
+- **Density**: Different levels of polygon counts are adopted in different use cases in the 3D modeling and gaming industries. 
+
 ### Binary Traits
-In addition to quality scores, we annotate several binary tags:
 
 - **Transparency**: Identifies models with see-through parts.
 - **Scene**: Identifies whether the model represents a scenario/environment rather than a standalone object.
