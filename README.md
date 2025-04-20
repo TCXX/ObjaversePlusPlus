@@ -68,6 +68,10 @@ We define quality score as a metric to assess how useful a 3D object is for mach
 - **Figure**: Indicates if the model represents a character, person, or figure.
 
 <p align="center">
+<img src="https://github.com/user-attachments/assets/fb802ae1-23d2-4040-be50-67bf2cdfb9d1" width="700">
+</p>
+
+<p align="center">
 <img src="https://github.com/user-attachments/assets/3790a57b-10cc-4bee-aa71-9e809953ebde" width="700">
 </p>
 
