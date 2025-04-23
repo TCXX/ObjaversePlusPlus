@@ -104,6 +104,9 @@ Our key findings:
 <img src="https://github.com/user-attachments/assets/837728c7-4e67-43d3-9b2b-19ecd8a88789" width="700">
 </p>
 
+For more details, please read our [paper](https://arxiv.org/abs/2504.07334), which was peer reviewed at CVPR workshop (2025).
+
+Note: Art style and density data are experimental and not included in the paper.
 
 ## Usage
 
