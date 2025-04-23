@@ -35,15 +35,6 @@ Our experiments show that:
 - Higher data quality leads to faster training loss convergence;
 - Careful curation and rich annotation can compensate for raw dataset size.
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/035acd0b-c9b3-4c03-b030-ac84aa570eef" width="700">
-  </p>
-
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/837728c7-4e67-43d3-9b2b-19ecd8a88789" width="700">
-</p>
-
 ## Quality and Attribute Annotations
 
 ### Quality Score
@@ -96,12 +87,21 @@ We set up an image-to-3D generation task to evaluate our dataset using OpenLRM. 
 - A randomly sampled subset of 100,000 objects from Objaverse (Training Set A)
 - A quality-filtered dataset of ~50,000 high-quality objects (Training Set B)
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a91dbc90-a9da-4d3d-8f3a-e1a884ea7555" width="500">
+</p>
+
 Our key findings:
 1. **Better Generation Quality**: User study shows significant preference for models trained on our curated dataset.
 2. **Faster Convergence**: Our model demonstrates faster convergence on a carefully curated dataset.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a91dbc90-a9da-4d3d-8f3a-e1a884ea7555" width="500">
+<img src="https://github.com/user-attachments/assets/035acd0b-c9b3-4c03-b030-ac84aa570eef" width="700">
+</p>
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/837728c7-4e67-43d3-9b2b-19ecd8a88789" width="700">
 </p>
 
 
