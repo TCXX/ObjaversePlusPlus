@@ -55,9 +55,23 @@ We define quality score as a metric to assess how useful a 3D object is for mach
 - **Superior Quality**: Excellent quality with high semantic clarity and professional texturing with strong aesthetic harmony.
 
 ### Art Style and Density
+Notice that Art Style and Density are not included in the paper due to the low accuracy based on the quantitative evaluations and lack of formal definitions. They mainly serve as insights to the researchers.
 
-- **Art style**: Scanned, realistic (but still handcrafted by artists), anime, cartoon, sci-fi, arcade, single color, other.
-- **Density**: Different levels of polygon counts are adopted in different use cases in the 3D modeling and gaming industries. 
+#### Art style:
+- **Scanned**: With little pieces from real-world camera, usually super high poly.
+- **Arcade**: Includes distinct patterns as if in the old games, sometimes has repeating patterns.
+- **Sci-Fi**: Dark color with lighting, usually metallic.
+- **Cartoon**: Colorful Western cartoon style.
+- **Anime**: Color Japanese anime style.
+- **Realistic**: With non-repeating textural details, but still handcrafted by artists.
+- **Other**: Unable to be categorized or of awful quality.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e25f2761-538d-4351-a3d7-6abf31b92455" width="700">
+</p>
+
+#### Density
+Different levels of polygon counts are adopted in different use cases in the 3D modeling and gaming industries. 
 
 ### Binary Traits
 
