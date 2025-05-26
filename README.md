@@ -28,7 +28,8 @@ Less is more. We proved that, with only the high-quality objects in a 3D dataset
 To address the prevalence of low-quality models in Objaverse, we:
 1. Manually annotated 10,000 3D objects with quality and characteristic attributes;
 2. Trained a neural network capable of annotating tags for the rest of the Objaverse dataset;
-3. Created a curated subset of approximately 500,000 high-quality 3D models.
+3. Annotated the Objaverse (~790k data) with quality and characteristic tags.
+
 
 Our experiments show that:
 - Models trained on our quality-focused subset achieve better performance than those trained on the larger Objaverse dataset in image-to-3D generation tasks;
