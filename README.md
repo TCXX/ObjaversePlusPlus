@@ -14,7 +14,7 @@ Minghao Liu,
 Ling Zhu,
 [Cindy Le](https://scholar.google.com/citations?hl=en&user=Y5aF5QgAAAAJ)
 
-We cleaned the Objaverse dataset so you don't have to. In this work, we meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire [Objaverse](https://huggingface.co/datasets/allenai/objaverse). Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
+We cleaned the [Objaverse](https://huggingface.co/datasets/allenai/objaverse) dataset so you don't have to. In this work, we meticulously curated a collection of Objaverse objects and developed an effective classifier capable of scoring the entire Objaverse XL. Our extensive annotation system considers geometric structure and texture information, enabling researchers to filter training data according to specific requirements.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/cc886ae2-1a06-42d2-8db7-93d6353d2ff0" width="700">
 </p>
