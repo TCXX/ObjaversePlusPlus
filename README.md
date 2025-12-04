@@ -119,12 +119,13 @@ You can view and download the dataset here: [Hugging Face link](https://huggingf
 If you find this work useful for your research, please cite our paper:
 
 ```
-@inproceedings{lin2025objaversecurated3dobject,
-  title = {Objaverse++: Curated 3D Object Dataset with Quality Annotations},
-  author = {Lin, Chendi and Liu, Heshan and Lin, Qunshu and Bright, Zachary and Tang, Shitao and He, Yihui and Liu, Minghao and Zhu, Ling and Le, Cindy},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year = {2025},
-  url = {https://arxiv.org/abs/2504.07334}
+@InProceedings{Lin_2025_ICCV,
+    author    = {Lin, Chendi and Liu, Heshan and Lin, Qunshu and Bright, Zachary and Tang, Shitao and He, Yihui and Liu, Minghao and Zhu, Ling and Le, Cindy},
+    title     = {Objaverse++: Curated 3D Object Dataset with Quality Annotations},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {6813-6822}
 }
 ```
 
