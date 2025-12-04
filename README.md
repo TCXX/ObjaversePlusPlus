@@ -106,7 +106,7 @@ Our key findings:
 </p>
 
 
-For more details, please read our [paper](https://arxiv.org/abs/2504.07334), which was peer reviewed at CVPR workshop (2025).
+For more details, please read our [paper](https://arxiv.org/abs/2504.07334), which was published at an ICCV workshop (2025).
 
 Note: Art style and density data are experimental and not included in the paper.
 
@@ -119,14 +119,12 @@ You can view and download the dataset here: [Hugging Face link](https://huggingf
 If you find this work useful for your research, please cite our paper:
 
 ```
-@misc{lin2025objaversecurated3dobject,
-      title={Objaverse++: Curated 3D Object Dataset with Quality Annotations}, 
-      author={Chendi Lin and Heshan Liu and Qunshu Lin and Zachary Bright and Shitao Tang and Yihui He and Minghao Liu and Ling Zhu and Cindy Le},
-      year={2025},
-      eprint={2504.07334},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.07334}, 
+@inproceedings{lin2025objaversecurated3dobject,
+  title = {Objaverse++: Curated 3D Object Dataset with Quality Annotations},
+  author = {Lin, Chendi and Liu, Heshan and Lin, Qunshu and Bright, Zachary and Tang, Shitao and He, Yihui and Liu, Minghao and Zhu, Ling and Le, Cindy},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year = {2025},
+  url = {https://arxiv.org/abs/2504.07334}
 }
 ```
 
